@@ -36,7 +36,7 @@ def simulate_collision(balls_x,box_size):
             #print(calculations[1],"!!!")
             #print(special_frame,"!!")
             balls_x = calculations[0]
-            print(calculations[0],"debugging e fdd")
+            #print(calculations[0],"debugging e fdd")
     for i in range(num_frames):
         for j in range(num_particles):
             if balls_x[j][i].m==0:
