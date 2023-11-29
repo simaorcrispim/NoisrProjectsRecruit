@@ -162,7 +162,7 @@ def main():
 b=1000
  #dicionário com as características de cada partícula
 num_particles=2
-fps=30
+fps=15
 tempo=int(input("escolha quanto tempo deseja que a sua animação dure (segs)"))
 num_frames=tempo*fps
 balls_x=[]
